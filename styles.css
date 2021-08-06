@@ -160,7 +160,7 @@
 
 
 
-  @media (max-width: 1153px) {
+  @media (max-width: 1253px) {
 
       .landing__page--container {
           display: flex;
@@ -254,10 +254,32 @@
           position: unset;
       }
 
-      .company {
-          margin-left: 10px;
-          width: 70px;
-          height: 20px;
+
+
+      .pod__form {
+          margin-bottom: 20px;
+
       }
 
+
+      .images__container {
+
+          display: flex;
+          justify-content: center;
+
+      }
+  }
+
+  @media (max-width: 597px) {
+      .company {
+          width: 80px;
+
+          object-fit: contain;
+          margin-left: 10px;
+      }
+
+      .spotify {
+          width: 70px;
+          object-fit: contain;
+      }
   }
